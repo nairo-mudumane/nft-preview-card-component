@@ -96,8 +96,6 @@ span {
     background: rgba(0, 255, 247, 0.6);
 }
 
-
-
 .text {
     margin: 1.5rem auto;
 }
@@ -160,6 +158,13 @@ span {
     width: 45px;
     height: 45px;
     margin-right: 1rem;
+}
+
+.avatar {
+    background: url('../images/image-avatar.png'), transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .link {
