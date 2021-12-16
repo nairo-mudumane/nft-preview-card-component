@@ -92,7 +92,7 @@ span {
 }
 
 .image:hover .hover-effect {
-    transform: translateY(-100%);
+    transform: translateY(-102%);
     background: rgba(0, 255, 247, 0.6);
 }
 
@@ -104,6 +104,7 @@ span {
 .card-title {
     font-size: 1.2em;
     margin-bottom: 1rem;
+    cursor: pointer;
 }
 
 .text-muted {
