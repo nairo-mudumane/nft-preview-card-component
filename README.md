@@ -1,5 +1,8 @@
 # Frontend Mentor - NFT preview card component
 
+### Preview link
+[https://nft-preview-card-app.herokuapp.com/](https://nft-preview-card-app.herokuapp.com/)
+
 ![Design preview for the NFT preview card component coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
