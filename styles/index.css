@@ -49,11 +49,26 @@ img {
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
     background: hsl(214deg 50% 16%);
     border-radius: 20px;
+    max-width: 300px;
     padding: 1rem;
 }
 
 .image {
-    max-width: 300px;
+    max-width: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.text {
+    margin: 1.5rem auto;
+}
+
+.card-title {
+    margin-bottom: 1rem;
+}
+
+.text-muted {
+    color: hsl(214deg 25% 61%);
 }
 
 .footer {
