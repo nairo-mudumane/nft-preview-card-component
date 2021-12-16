@@ -46,12 +46,12 @@ span {
 .page {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-start;
     align-content: flex-start;
 
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
 }
 
 .card-container {
@@ -61,7 +61,7 @@ span {
     justify-content: center;
 
     width: 100%;
-    min-height: 94vh;
+    padding-top: 1rem;
 }
 
 .card-box {
@@ -74,7 +74,7 @@ span {
 
 .image {
     width: 100%;
-    height: 288px;
+    height: 260px;
     border-radius: 12px;
     overflow: hidden;
 }
@@ -97,10 +97,12 @@ span {
 }
 
 .text {
-    margin: 1.5rem auto;
+    font-size: .9em;
+    margin-top: 1rem;
 }
 
 .card-title {
+    font-size: 1.2em;
     margin-bottom: 1rem;
 }
 
@@ -116,7 +118,8 @@ span {
     justify-content: space-between;
     align-items: center;
 
-    margin: 1.5rem auto;
+    margin: 1rem auto;
+    font-size: .9em;
 }
 
 .icon {
@@ -149,14 +152,14 @@ span {
 
     box-shadow: 0px -0.1px 0px hsl(214deg 25% 61%);
     padding: 1rem 0;
-    margin-top: 1rem;
+    font-size: .8em;
 }
 
 .avatar {
     border: 2px solid hsl(214deg 25% 61%);
     border-radius: 50%;
-    width: 45px;
-    height: 45px;
+    width: 32px;
+    height: 32px;
     margin-right: 1rem;
 }
 
@@ -176,10 +179,7 @@ span {
     text-align: center;
 
     width: 100%;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    position: relative;
-    bottom: 0;
+    padding: 1rem .5rem;
 }
 
 .attribution a {
